@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8CAD15D921CC612D008FC128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD15D821CC612D008FC128 /* AppDelegate.swift */; };
-		8CAD15DB21CC612D008FC128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD15DA21CC612D008FC128 /* ViewController.swift */; };
 		8CAD15DE21CC612D008FC128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD15DC21CC612D008FC128 /* Main.storyboard */; };
 		8CAD15E021CC612E008FC128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD15DF21CC612E008FC128 /* Assets.xcassets */; };
 		8CAD15E321CC612E008FC128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD15E121CC612E008FC128 /* LaunchScreen.storyboard */; };
 		8CAD15EE21CC612E008FC128 /* testingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD15ED21CC612E008FC128 /* testingAppTests.swift */; };
 		8CAD15F921CC612E008FC128 /* testingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD15F821CC612E008FC128 /* testingAppUITests.swift */; };
+		8CAD160821CC615E008FC128 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD160621CC615E008FC128 /* FirstViewController.swift */; };
+		8CAD160921CC615E008FC128 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD160721CC615E008FC128 /* FirstViewController.xib */; };
+		8CAD160F21CC765A008FC128 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD160D21CC765A008FC128 /* SecondViewController.swift */; };
+		8CAD161021CC765A008FC128 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD160E21CC765A008FC128 /* SecondViewController.xib */; };
+		8CAD161321CCC9DE008FC128 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD161121CCC9DE008FC128 /* ThirdViewController.swift */; };
+		8CAD161421CCC9DE008FC128 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD161221CCC9DE008FC128 /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8CAD15D521CC612D008FC128 /* testingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAD15D521CC612D008FC128 /* Gift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAD15D821CC612D008FC128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CAD15DA21CC612D008FC128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CAD15DD21CC612D008FC128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CAD15DF21CC612E008FC128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CAD15E221CC612E008FC128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CAD15E421CC612E008FC128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CAD15E921CC612E008FC128 /* testingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAD15E921CC612E008FC128 /* GiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAD15ED21CC612E008FC128 /* testingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingAppTests.swift; sourceTree = "<group>"; };
 		8CAD15EF21CC612E008FC128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CAD15F421CC612E008FC128 /* testingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAD15F421CC612E008FC128 /* GiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAD15F821CC612E008FC128 /* testingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingAppUITests.swift; sourceTree = "<group>"; };
 		8CAD15FA21CC612E008FC128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CAD160621CC615E008FC128 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8CAD160721CC615E008FC128 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		8CAD160D21CC765A008FC128 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8CAD160E21CC765A008FC128 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		8CAD161121CCC9DE008FC128 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		8CAD161221CCC9DE008FC128 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +97,9 @@
 		8CAD15D621CC612D008FC128 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CAD15D521CC612D008FC128 /* testingApp.app */,
-				8CAD15E921CC612E008FC128 /* testingAppTests.xctest */,
-				8CAD15F421CC612E008FC128 /* testingAppUITests.xctest */,
+				8CAD15D521CC612D008FC128 /* Gift.app */,
+				8CAD15E921CC612E008FC128 /* GiftTests.xctest */,
+				8CAD15F421CC612E008FC128 /* GiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +107,8 @@
 		8CAD15D721CC612D008FC128 /* testingApp */ = {
 			isa = PBXGroup;
 			children = (
+				8CAD160C21CC7639008FC128 /* ViewController */,
 				8CAD15D821CC612D008FC128 /* AppDelegate.swift */,
-				8CAD15DA21CC612D008FC128 /* ViewController.swift */,
 				8CAD15DC21CC612D008FC128 /* Main.storyboard */,
 				8CAD15DF21CC612E008FC128 /* Assets.xcassets */,
 				8CAD15E121CC612E008FC128 /* LaunchScreen.storyboard */,
@@ -125,12 +135,25 @@
 			path = testingAppUITests;
 			sourceTree = "<group>";
 		};
+		8CAD160C21CC7639008FC128 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD160621CC615E008FC128 /* FirstViewController.swift */,
+				8CAD160721CC615E008FC128 /* FirstViewController.xib */,
+				8CAD160D21CC765A008FC128 /* SecondViewController.swift */,
+				8CAD160E21CC765A008FC128 /* SecondViewController.xib */,
+				8CAD161121CCC9DE008FC128 /* ThirdViewController.swift */,
+				8CAD161221CCC9DE008FC128 /* ThirdViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8CAD15D421CC612D008FC128 /* testingApp */ = {
+		8CAD15D421CC612D008FC128 /* Gift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CAD15FD21CC612E008FC128 /* Build configuration list for PBXNativeTarget "testingApp" */;
+			buildConfigurationList = 8CAD15FD21CC612E008FC128 /* Build configuration list for PBXNativeTarget "Gift" */;
 			buildPhases = (
 				8CAD15D121CC612D008FC128 /* Sources */,
 				8CAD15D221CC612D008FC128 /* Frameworks */,
@@ -140,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = testingApp;
+			name = Gift;
 			productName = testingApp;
-			productReference = 8CAD15D521CC612D008FC128 /* testingApp.app */;
+			productReference = 8CAD15D521CC612D008FC128 /* Gift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8CAD15E821CC612E008FC128 /* testingAppTests */ = {
+		8CAD15E821CC612E008FC128 /* GiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CAD160021CC612E008FC128 /* Build configuration list for PBXNativeTarget "testingAppTests" */;
+			buildConfigurationList = 8CAD160021CC612E008FC128 /* Build configuration list for PBXNativeTarget "GiftTests" */;
 			buildPhases = (
 				8CAD15E521CC612E008FC128 /* Sources */,
 				8CAD15E621CC612E008FC128 /* Frameworks */,
@@ -158,14 +181,14 @@
 			dependencies = (
 				8CAD15EB21CC612E008FC128 /* PBXTargetDependency */,
 			);
-			name = testingAppTests;
+			name = GiftTests;
 			productName = testingAppTests;
-			productReference = 8CAD15E921CC612E008FC128 /* testingAppTests.xctest */;
+			productReference = 8CAD15E921CC612E008FC128 /* GiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8CAD15F321CC612E008FC128 /* testingAppUITests */ = {
+		8CAD15F321CC612E008FC128 /* GiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CAD160321CC612E008FC128 /* Build configuration list for PBXNativeTarget "testingAppUITests" */;
+			buildConfigurationList = 8CAD160321CC612E008FC128 /* Build configuration list for PBXNativeTarget "GiftUITests" */;
 			buildPhases = (
 				8CAD15F021CC612E008FC128 /* Sources */,
 				8CAD15F121CC612E008FC128 /* Frameworks */,
@@ -176,9 +199,9 @@
 			dependencies = (
 				8CAD15F621CC612E008FC128 /* PBXTargetDependency */,
 			);
-			name = testingAppUITests;
+			name = GiftUITests;
 			productName = testingAppUITests;
-			productReference = 8CAD15F421CC612E008FC128 /* testingAppUITests.xctest */;
+			productReference = 8CAD15F421CC612E008FC128 /* GiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CAD15D021CC612D008FC128 /* Build configuration list for PBXProject "testingApp" */;
+			buildConfigurationList = 8CAD15D021CC612D008FC128 /* Build configuration list for PBXProject "Gift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CAD15D421CC612D008FC128 /* testingApp */,
-				8CAD15E821CC612E008FC128 /* testingAppTests */,
-				8CAD15F321CC612E008FC128 /* testingAppUITests */,
+				8CAD15D421CC612D008FC128 /* Gift */,
+				8CAD15E821CC612E008FC128 /* GiftTests */,
+				8CAD15F321CC612E008FC128 /* GiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,7 +254,10 @@
 			files = (
 				8CAD15E321CC612E008FC128 /* LaunchScreen.storyboard in Resources */,
 				8CAD15E021CC612E008FC128 /* Assets.xcassets in Resources */,
+				8CAD161421CCC9DE008FC128 /* ThirdViewController.xib in Resources */,
 				8CAD15DE21CC612D008FC128 /* Main.storyboard in Resources */,
+				8CAD160921CC615E008FC128 /* FirstViewController.xib in Resources */,
+				8CAD161021CC765A008FC128 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CAD15DB21CC612D008FC128 /* ViewController.swift in Sources */,
+				8CAD160F21CC765A008FC128 /* SecondViewController.swift in Sources */,
 				8CAD15D921CC612D008FC128 /* AppDelegate.swift in Sources */,
+				8CAD161321CCC9DE008FC128 /* ThirdViewController.swift in Sources */,
+				8CAD160821CC615E008FC128 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		8CAD15EB21CC612E008FC128 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8CAD15D421CC612D008FC128 /* testingApp */;
+			target = 8CAD15D421CC612D008FC128 /* Gift */;
 			targetProxy = 8CAD15EA21CC612E008FC128 /* PBXContainerItemProxy */;
 		};
 		8CAD15F621CC612E008FC128 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8CAD15D421CC612D008FC128 /* testingApp */;
+			target = 8CAD15D421CC612D008FC128 /* Gift */;
 			targetProxy = 8CAD15F521CC612E008FC128 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testingApp.app/testingApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gift.app/Gift";
 			};
 			name = Debug;
 		};
@@ -498,7 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testingApp.app/testingApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gift.app/Gift";
 			};
 			name = Release;
 		};
@@ -543,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CAD15D021CC612D008FC128 /* Build configuration list for PBXProject "testingApp" */ = {
+		8CAD15D021CC612D008FC128 /* Build configuration list for PBXProject "Gift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CAD15FB21CC612E008FC128 /* Debug */,
@@ -552,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CAD15FD21CC612E008FC128 /* Build configuration list for PBXNativeTarget "testingApp" */ = {
+		8CAD15FD21CC612E008FC128 /* Build configuration list for PBXNativeTarget "Gift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CAD15FE21CC612E008FC128 /* Debug */,
@@ -561,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CAD160021CC612E008FC128 /* Build configuration list for PBXNativeTarget "testingAppTests" */ = {
+		8CAD160021CC612E008FC128 /* Build configuration list for PBXNativeTarget "GiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CAD160121CC612E008FC128 /* Debug */,
@@ -570,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CAD160321CC612E008FC128 /* Build configuration list for PBXNativeTarget "testingAppUITests" */ = {
+		8CAD160321CC612E008FC128 /* Build configuration list for PBXNativeTarget "GiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CAD160421CC612E008FC128 /* Debug */,

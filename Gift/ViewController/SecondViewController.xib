@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController" customModule="Gift" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm going to take you on a journey..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4P-UD-H1j">
+                    <rect key="frame" x="16" y="93" width="343" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="343" id="0nZ-5t-ohK"/>
+                        <constraint firstAttribute="height" constant="112" id="Tkj-Zv-6ni"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhZ-SK-ziw">
+                    <rect key="frame" x="52" y="561" width="270" height="72"/>
+                    <color key="backgroundColor" red="0.65619051399999995" green="0.085499151250000002" blue="0.2338019261" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="270" id="A2N-L2-ZrQ"/>
+                        <constraint firstAttribute="height" constant="72" id="DC9-OI-PkN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                    <state key="normal" title="Tap me -&gt;&gt;&gt;">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.55121748096446699" green="0.071821560619380345" blue="0.19639983509030748" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="C4P-UD-H1j" secondAttribute="trailing" constant="16" id="8e8-Kg-VWc"/>
+                <constraint firstItem="C4P-UD-H1j" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="49" id="Nt0-Rn-2SK"/>
+                <constraint firstItem="uhZ-SK-ziw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="52" id="Th9-XA-Y3H"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="C4P-UD-H1j" secondAttribute="bottom" constant="486" id="bcj-Kh-wpn"/>
+                <constraint firstItem="C4P-UD-H1j" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="kSJ-EU-BJe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="uhZ-SK-ziw" secondAttribute="bottom" constant="51" id="p09-BT-AA3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uhZ-SK-ziw" secondAttribute="trailing" constant="53" id="wG0-eg-jjv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+</document>
